@@ -6,6 +6,8 @@ class MyTest(unittest.TestCase):
         self.assertEqual(my_faculty(5), 120)
     def test0(self):
         self.assertEqual(my_faculty(0), 1)
+    def test1(self):
+        self.assertEqual(my_faculty(1), 1)
     def testEnviron(self):
         self.assertEqual(my_faculty("NFAK"), 1)
 
