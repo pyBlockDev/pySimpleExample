@@ -1,4 +1,8 @@
+import os
+
 def my_faculty(n):
+    if isinstance(n, str):
+        n = int(os.environ.get(n))
     mul = 1
     if n==0:
         return 1
